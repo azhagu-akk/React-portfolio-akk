@@ -20,17 +20,17 @@ export function About() {
     {
       name: "React Developer Certification",
       issuer: "Prepinsta",
-      year: "2023",
+      year: "2022",
     },
     {
       name: "Git & GitHub",
       issuer: "Udemy",
-      year: "2024",
+      year: "2023",
     },
     {
       name: "MERN Stack Developer Certification",
       issuer: "GUVI",
-      year: "2025",
+      year: "2024",
     },
   ];
 
