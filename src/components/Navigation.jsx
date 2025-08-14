@@ -29,7 +29,7 @@ export function Navigation() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex-shrink-0">
-            <span className="text-white text-xl font-bold">Portfolio</span>
+            <span className="text-white text-xl font-bold">@akk</span>
           </div>
 
           {/* Desktop Navigation */}
@@ -46,7 +46,7 @@ export function Navigation() {
               ))}
               <button
                 onClick={handleResumeDownload}
-                className="bg-gradient-to-r from-gray-700 to-gray-800 hover:from-gray-600 hover:to-gray-700 text-white px-4 py-2 rounded-md text-sm font-medium transition-all duration-200 flex items-center gap-2 border border-gray-600 hover:border-gray-500"
+                className="bg-gradient-to-r from-gray-700 to-gray-800 hover:from-gray-600 hover:to-gray-700 text-white px-4 py-2 rounded-md text-sm font-medium transition-all duration-200 flex items-center gap-2 border border-gray-600 hover:border-gray-500 "
               >
                 <Download size={16} />
                 Resume
@@ -85,7 +85,7 @@ export function Navigation() {
                 handleResumeDownload();
                 setIsOpen(false);
               }}
-              className="bg-gradient-to-r from-gray-700 to-gray-800 hover:from-gray-600 hover:to-gray-700 text-white px-3 py-2 rounded-md text-base font-medium transition-all duration-200 flex items-center gap-2 border border-gray-600 hover:border-gray-500 w-full"
+              className="bg-gradient-to-r from-gray-700 to-gray-800 hover:from-gray-600 hover:to-gray-700 text-white px-3 py-2 rounded-md text-base font-medium transition-all duration-200 flex items-center gap-2 border border-gray-600 hover:border-gray-500  text-center"
             >
               <Download size={16} />
               Resume
